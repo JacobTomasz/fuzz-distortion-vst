@@ -1,0 +1,6 @@
+PARAMETER, MIN, MAX, GRAIN, EXP, DEFAULT, AUTOMATABLE, NAME, SUFFIX, TOOLTIP, TO_STRING_ARR
+FUZZ, 0, 100, 0, 1, 50, 1, Fuzz, %, Amount of fuzz distortion,
+TONE, 0, 100, 0, 1, 50, 1, Tone, %, Tonal brightness,
+LEVEL, 0, 100, 0, 1, 75, 1, Level, %, Output volume,
+DRY_WET, 0, 100, 0, 1, 100, 1, Mix, %, Dry/wet blend,
+FUZZ_TYPE, 0, 5, 1, 1, 0, 1, Type, , Fuzz algorithm, Soft Sgn Hard Atan Fold Asym
